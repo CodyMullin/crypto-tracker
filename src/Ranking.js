@@ -39,14 +39,14 @@ const Ranking = () => {
 						<input
 							type='text'
 							placeholder='Search'
-							className='bg-gray-800 text-gray-100 placeholder-gray-700 h-12 w-full px-4'
+							className='bg-gray-800 text-gray-100 placeholder-gray-700 h-12 w-full px-4 mx-4 lg:mx-0'
 							onChange={handleChange}
 						/>
 					</form>
 					<select
 						name='coinLength'
 						id='coinLength'
-						className='bg-gray-800 text-white ml-8 w-1/5 h-12 px-3'
+						className='bg-gray-800 text-white ml-8 w-1/5 h-12 px-3 mx-4 lg:mx-0'
 						value={length}
 						onChange={handleLengthChange}
 					>
@@ -60,11 +60,11 @@ const Ranking = () => {
 
 				<div className='container mx-auto'>
 					<div className='flex items-center justify-between py-4 my-3 px-3 text-white'>
-						<div className='w-16 mr-40'></div>
-						<div className='w-1/6'>Name</div>
-						<div className='w-1/6'>Symbol</div>
-						<div className='w-1/6'>Price</div>
-						<div className='w-1/6'>Price Change</div>
+						<div className='w-8 lg:w-16 mr-4 lg:mr-40'></div>
+						<div className='text-xs lg:text-base w-1/6'>Name</div>
+						<div className='text-xs lg:text-base w-1/6'>Symbol</div>
+						<div className='text-xs lg:text-base w-1/6'>Price</div>
+						<div className='text-xs lg:text-base w-1/6'>Price Change</div>
 					</div>
 					<hr />
 				</div>
