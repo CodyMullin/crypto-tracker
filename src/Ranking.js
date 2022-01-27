@@ -46,7 +46,7 @@ const Ranking = () => {
 					<select
 						name='coinLength'
 						id='coinLength'
-						className='bg-gray-800 text-white ml-8 w-1/5 h-12 px-3 mx-4 lg:mx-0'
+						className='bg-gray-800 text-white ml-8 w-1/5 h-12 px-3 mx-4'
 						value={length}
 						onChange={handleLengthChange}
 					>
